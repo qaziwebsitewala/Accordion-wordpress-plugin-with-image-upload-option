@@ -1,0 +1,40 @@
+.custom-accordion {
+    max-width: 600px;
+    margin: 20px auto;
+}
+
+.accordion-item {
+    border-bottom: 3px solid #ddd;
+    margin-bottom: 10px;
+}
+
+.accordion-header {
+    //background-color: #f4f4f4;
+    padding: 10px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    cursor: pointer;
+}
+
+.accordion-title {
+    margin: 0;
+}
+
+.accordion-toggle {
+    font-size: 20px;
+    line-height: 1;
+}
+
+.accordion-content {
+    padding: 10px;
+    display: none;
+}
+
+.accordion-open .accordion-toggle {
+    content: "-";
+}
+
+.accordion-open .accordion-content {
+    display: block;
+}
